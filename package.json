@@ -1,0 +1,30 @@
+{
+  "name": "justfab",
+  "version": "0.0.0",
+  "author": "Damian Tarnawsky",
+  "homepage": "https://builder.io/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "ionic:build": "npm run build",
+    "ionic:serve": "vite"
+  },
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "7.1.0",
+    "@capacitor/app": "7.0.0",
+    "@capacitor/core": "7.1.0",
+    "@capacitor/haptics": "7.0.0",
+    "@capacitor/ios": "7.1.0",
+    "@capacitor/keyboard": "7.0.0",
+    "@capacitor/status-bar": "7.0.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.1.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">JustFab</string>
+    <string name="title_activity_main">JustFab</string>
+    <string name="package_name">builder.justfab</string>
+    <string name="custom_url_scheme">builder.justfab</string>
+</resources>
